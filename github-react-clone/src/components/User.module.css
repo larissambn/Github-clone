@@ -1,0 +1,70 @@
+.user {
+    background-color: bisque;
+    padding : 2rem;
+    border-radius: 1rem;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.user img {
+    border : 4px solid black; 
+    width: 140px;
+    height: 140px;
+    border-radius: 70%;
+}
+
+.location {
+display: flex;
+align-items: center;
+gap: 0.4rem;
+}
+
+.location svg {
+    fill :black;
+    font-size: 1.5rem;
+}
+
+.location span {
+color : darkolivegreen;
+font-weight: bold;
+}
+
+.stats {
+    display:flex;
+}
+
+.stats div {
+    padding: 0 1rem;
+    display:flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.stats div:first-child {
+ border-right: 1px solid gray;
+}
+
+.stats .number{
+    background-color: aquamarine;
+    padding: .2rem .4rem;
+    border-radius: 3px;
+}
+
+.user a {
+    text-align: center;
+    color: black;
+    padding: 1rem;
+    background-color: darkcyan;
+    border-radius: 5px;
+    opacity:.8;
+    transition: .3s;
+}
+
+.user a:hover {
+    opacity: 1;
+}
